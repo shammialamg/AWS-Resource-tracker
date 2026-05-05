@@ -23,8 +23,8 @@ set -o
 #AWS S3 
 aws s3 ls
 
-#AWS EC2inctance
-aws ec2 describe-instances
+#AWS EC2inctance  (jq  is parser for json file through json file can be read ..would suggest learn more about it)
+aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId'
 
 #AWS lambda
 aws lambda list-functions
