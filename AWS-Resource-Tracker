@@ -1,0 +1,37 @@
+#!/bin/bash
+
+
+########################################
+
+# this script will show the current AWS resource utilization .
+# Author : SHammi Alam
+# Date : 10-March-2026
+# refrence : Abhishek Veeramalaa 
+#Version : v1
+
+############################################
+
+#AWS EC2
+#AWS S3
+#AWS lambda
+#AWS IAM
+
+set -x
+set -e
+set -o
+
+#AWS S3 
+aws s3 ls
+
+#AWS EC2inctance
+aws ec2 describe-instances
+
+#AWS lambda
+aws lambda list-functions
+
+#list IAM users
+aws iam list-users
+
+
+
+
