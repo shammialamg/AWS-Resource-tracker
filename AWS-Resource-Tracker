@@ -21,16 +21,16 @@ set -e
 set -o
 
 #AWS S3 
-aws s3 ls
+aws s3 ls > output.txt
 
 #AWS EC2inctance  (jq  is parser for json file through json file can be read ..would suggest learn more about it)
-aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId'
+aws ec2 describe-instances | jq '.Reservations[].Instances[].InstanceId' >> output.txt
 
 #AWS lambda
-aws lambda list-functions
+aws lambda list-functions >> output.txt
 
 #list IAM users
-aws iam list-users
+aws iam list-users >> output.txt
 
 
 
