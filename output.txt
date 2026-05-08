@@ -1,0 +1,26 @@
+2026-04-29 21:09:19 are-bhaya-start-ho-ja-bucket-2026
+"i-0f783ea4eaf4181bf"
+"i-0ca8131c8ca427316"
+{
+    "Functions": []
+}
+{
+    "Users": [
+        {
+            "Path": "/",
+            "UserName": "Itachi",
+            "UserId": "AIDA5RT5WO3ELYOA5NV7A",
+            "Arn": "arn:aws:iam::931197777608:user/Itachi",
+            "CreateDate": "2026-01-14T16:39:53+00:00",
+            "PasswordLastUsed": "2026-02-17T23:42:50+00:00"
+        },
+        {
+            "Path": "/",
+            "UserName": "vbhvtrpthi",
+            "UserId": "AIDA5RT5WO3EMECMEJWGA",
+            "Arn": "arn:aws:iam::931197777608:user/vbhvtrpthi",
+            "CreateDate": "2026-02-16T07:51:14+00:00",
+            "PasswordLastUsed": "2026-02-19T04:24:03+00:00"
+        }
+    ]
+}
